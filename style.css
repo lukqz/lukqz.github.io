@@ -1,0 +1,63 @@
+*{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+body{
+    background-image: url(../port/img/background.jpg);
+    background-size: cover;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 1.5fr);
+    width: 100%;
+    grid-gap: 30px;
+}
+
+.music, .about{
+    margin-bottom: 10px;
+}
+
+
+
+.music{
+    text-align: center;
+}
+.about{
+    text-align: center;
+}
+.about .gif{
+    margin-top: 20px;
+}
+.about h2{
+    text-align: center;
+}
+
+.about ul{
+    display: inline-block;
+    text-align: left;
+}
+.about ul li{
+    list-style: none;
+}
+.about .links a{
+    text-decoration: none;
+    margin: 10px;
+    transition: transform 0.3s;
+    outline: none;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.links a, i {
+    font-size: 30px; /* Adjust the size as needed */
+}
+.links a:hover{
+    transform: scale(1.1);
+}
+
+
